@@ -1,7 +1,5 @@
 {
   "packages": [
-    "packages/chameleon-tool",
-    "packages/easy-chameleon",
     "packages/babel-plugin-chameleon-import",
     "packages/chameleon-css-loader",
     "packages/chameleon-dev-proxy",
@@ -12,6 +10,7 @@
     "packages/chameleon-mixins",
     "packages/chameleon-template-parse",
     "packages/chameleon-templates",
+    "packages/chameleon-tool",
     "packages/chameleon-tool-utils",
     "packages/chameleon-vue-precompiler",
     "packages/chameleon-webpack-plugin",
@@ -20,13 +19,14 @@
     "packages/cml-htmllinter",
     "packages/cml-interface-parser",
     "packages/cml-js-parser",
+    "packages/easy-chameleon",
     "packages/interface-loader",
     "packages/runtime-check",
     "packages/url-loader",
     "packages/webpack-check-plugin",
     "packages/webpack-liveload-middleware"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "command": {
     "publish": {
       "allowBranch": "master",
